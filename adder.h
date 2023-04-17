@@ -26,7 +26,7 @@ public:
         _i_b = i_n_port.read();
         _i_c = i_n_port.read();
         // wait();
-        _o_sum = _i_a*(1.0/6.0) + _i_b*(1.0/3.0) + _i_c*(1.0/2.0);
+        _o_sum = _i_a*(1.0/2.0) + _i_b*(1.0/3.0) + _i_c*(1.0/6.0);
         o_result.write(_o_sum);
         // cout << _y_index << " " << _i_a << " " << _i_b << " " << _i_c << " " << _o_sum << endl;
         wait();
